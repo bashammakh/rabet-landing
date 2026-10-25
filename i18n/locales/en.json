@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "title": "Rabet {'|'} Government Services for Your Business in Saudi Arabia",
+    "description": "Company formation, licensing, Commercial Registration and employee services in Saudi Arabia, all in one app. Request, track and stay updated with Rabet."
+  },
+  "nav": {
+    "home": "Home",
+    "features": "App Features",
+    "setup": "Business Setup",
+    "services": "Government Services",
+    "about": "About Us",
+    "faqs": "FAQs",
+    "contact": "Contact Us",
+    "download": "Download App",
+    "menu": "Menu",
+    "language": "العربية"
+  },
+  "hero": {
+    "eyebrow": "Government Services",
+    "line1": "In Saudi Arabia..",
+    "line2": "All In One Place",
+    "highlight": "With Rabet",
+    "p1": "From setting up your company to requesting government services and licenses, Rabet brings everything you need together in one place.",
+    "p2": "Explore requirements, submit service requests, track their progress, and stay updated with the latest government news and regulations relevant to your business, all conveniently from your phone.",
+    "cta": "Get Service via “Rabet” Logo",
+    "downloadNow": "Download the Rabet app now",
+    "trackTitle": "Track, pay, and chat - all from your phone",
+    "status": {
+      "completed": "Completed",
+      "progress": "In progress",
+      "review": "Under Review",
+      "submitted": "Order Submitted"
+    }
+  },
+  "why": {
+    "badge": "Why Rabet?",
+    "title": "Everything Your Business Needs,",
+    "highlight": "In One App",
+    "text": "No more confusion about government services, requirements, and procedures. Rabet makes it easier to access the services your business needs while keeping you informed about the progress of your requests.",
+    "items": [
+      {
+        "title": "Company Formation in Saudi Arabia",
+        "text": "Planning to start a business in Saudi Arabia? Explore company formation procedures and requirements based on your nationality and business activity, whether you are a Saudi citizen, GCC national, or foreign investor."
+      },
+      {
+        "title": "Government Services & Licensing",
+        "text": "Need to issue a Commercial Registration, update your business information, obtain a license, or manage employee-related services? Browse the available services and submit your requests directly through Rabet."
+      },
+      {
+        "title": "Service Request Tracking",
+        "text": "Once you submit a service request, you can track its status and progress directly from the app and check whether any additional information or documents are required."
+      },
+      {
+        "title": "Government News & Updates",
+        "text": "Stay informed about the latest government announcements, regulatory updates, and developments that may affect your business operations in Saudi Arabia."
+      }
+    ]
+  },
+  "setup": {
+    "badge": "Start Your Business",
+    "titleA": "Want To",
+    "highlight": "Start A Company In Saudi Arabia",
+    "titleB": "But Don't Know Where To Begin?",
+    "p1": "Setting up a company starts with understanding the right requirements. The process varies depending on your nationality, business activity, and the type of company you want to establish.",
+    "p2Before": "The",
+    "p2Strong": "Rabet Business Setup Guide",
+    "p2After": "helps you explore the appropriate company formation process before getting started.",
+    "cta": "Explore the Business Setup Guide",
+    "helpTitle": "How Does The Business Setup Guide Help You?",
+    "steps": [
+      {
+        "title": "Select Your Investor Category",
+        "text": "Choose whether you're a Saudi citizen, GCC national, or foreign investor to explore the requirements that apply to you."
+      },
+      {
+        "title": "Choose Your Business Activity",
+        "text": "Select your planned activity, such as a restaurant, café, factory, technology company, or professional services business."
+      },
+      {
+        "title": "Understand the Requirements",
+        "text": "Discover the documents, procedures, and government authorities involved in establishing your company."
+      },
+      {
+        "title": "Start Your Company Formation",
+        "text": "Request company formation assistance through Rabet, with support from our team throughout the establishment process."
+      }
+    ],
+    "tagline": "Start Your Business the Right Way, from the Very First Step."
+  },
+  "services": {
+    "badge": "Our Services",
+    "titleStrong": "Government Services",
+    "titleRest": "For Your Business, Now Within Easy Reach",
+    "text": "Whether you're establishing a business, managing daily operations, or expanding into new markets, Rabet helps you access a range of government and business services in Saudi Arabia.",
+    "note": "Requirements, government fees, and processing times vary depending on the service and the relevant authority.",
+    "cta": "Explore All Services in the App",
+    "items": [
+      {
+        "title": "Company Formation",
+        "text": "Company and business establishment services for Saudi citizens, GCC nationals, and foreign investors, according to applicable requirements and procedures."
+      },
+      {
+        "title": "Commercial Registration Services",
+        "text": "Services related to issuing Commercial Registrations, updating business information, transferring ownership, and other available registration procedures."
+      },
+      {
+        "title": "Government Licensing",
+        "text": "Licensing services for commercial, industrial, service-based, and professional activities, subject to the requirements of the relevant government authorities."
+      },
+      {
+        "title": "Employee & Residency Services",
+        "text": "Business services related to employees, including work permits, residency permits (Iqama), employee transfers, profession changes, and other related procedures."
+      },
+      {
+        "title": "Government Platform Services",
+        "text": "Services associated with platforms such as Qiwa, Muqeem, Mudad, GOSI, and other government platforms used to manage business obligations and employee-related procedures."
+      },
+      {
+        "title": "Foreign Investment Services",
+        "text": "Company establishment and investment licensing services for foreign investors, including assistance with the requirements and procedures involved in operating a business in Saudi Arabia."
+      }
+    ]
+  },
+  "tracking": {
+    "badge": "Stay In Control",
+    "title": "Submitted A Request?",
+    "highlight": "Track Every Step From Your Phone",
+    "p1": "With Rabet, you no longer need to wonder about the status of your service request or how far it has progressed.",
+    "p2": "Review service details, follow request progress, and communicate about additional documents or information needed to complete the process.",
+    "cta": "Download the App & Get Started",
+    "cardTitle": "All Your Service Request Details in One Place",
+    "points": [
+      "View the current status of your request.",
+      "Track each stage of service execution.",
+      "Identify missing information or required documents.",
+      "Communicate directly within your service request.",
+      "Easily access your previous service requests."
+    ],
+    "cardFooter": "Stay Informed About Your Business Requests, Wherever You Are."
+  },
+  "steps": {
+    "badge": "How It Works",
+    "title": "Get Started In",
+    "highlight": "Three Simple Steps",
+    "text": "Rabet Makes Accessing and Managing Government Services Easier, from Start to Finish.",
+    "cta": "Get Started Now",
+    "items": [
+      {
+        "title": "Download the App & Create Your Account",
+        "text": "Download Rabet from the App Store or Google Play and create your account to start exploring the app."
+      },
+      {
+        "title": "Choose a Service & Submit Your Request",
+        "text": "Browse the available government and business services, select the one you need, and review its details and requirements before submitting your request."
+      },
+      {
+        "title": "Track Your Service Request",
+        "text": "After submitting your request and completing payment when applicable, you can follow its progress directly from the app. Our team will assist you with the required information, documents, and procedures."
+      }
+    ]
+  },
+  "features": {
+    "badge": "App Features",
+    "title": "See How Rabet Makes Managing Your",
+    "highlight": "Business Easier",
+    "p1": "We designed Rabet to provide a simple and convenient experience, whether you're establishing your first company or managing an existing business that regularly requires government services.",
+    "p2": "From the home screen, you can access services, explore the Business Setup Guide, track requests, and stay informed about government updates relevant to your business.",
+    "cta": "Explore Rabet Now",
+    "items": {
+      "home": {
+        "title": "Home",
+        "text": "Your starting point for accessing everything available in Rabet."
+      },
+      "setup": {
+        "title": "Business Setup Guide",
+        "text": "Explore the requirements and procedures for establishing a company in Saudi Arabia."
+      },
+      "requests": {
+        "title": "My Requests",
+        "text": "Track your service requests and monitor their progress."
+      },
+      "services": {
+        "title": "Services",
+        "text": "Browse government and business services and select the ones your company needs."
+      },
+      "news": {
+        "title": "News & Updates",
+        "text": "Stay informed about government announcements and regulatory developments affecting businesses in Saudi Arabia."
+      }
+    }
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "Rabet, Powered By",
+    "subtitle": "Ahmed Bashammakh Group",
+    "text": "Rabet is developed by Ahmed Bashammakh Group for Business Services (ABG), a Saudi business services group established in 1991, specializing in business consulting, company formation, and government licensing services. For more than 35 years, we have supported businesses, entrepreneurs, and investors in navigating government requirements and completing business-related procedures in Saudi Arabia. Today, we're bringing that experience into a more accessible digital platform designed to simplify how businesses access and manage government services. Our goal is to make government services easier to understand, request, and track, all through one convenient mobile application.",
+    "cardTitle": "Decades of Experience. A Smarter Digital Experience.",
+    "cardText": "Rabet is a privately operated application developed by Ahmed Bashammakh Group. It is not a government application and is not affiliated with any government authority. Official procedures are processed through the relevant government platforms and authorities.",
+    "abgAlt": "ABG — Ahmed Bashammakh Group"
+  },
+  "updates": {
+    "badge": "Latest Updates",
+    "highlight": "Government Updates",
+    "title": "That Matter To Your Business, All In Rabet",
+    "text": "Government regulations, requirements, and procedures continue to evolve, and staying informed is essential for every business owner and investor in Saudi Arabia. That's why Rabet includes a dedicated news and updates section to help you discover the latest developments related to business licensing, company formation, employee services, economic activities, and more.",
+    "tagline": "Stay Updated on Developments That Matter to Your Business, All in One Place.",
+    "cta": "Explore the Latest Updates"
+  },
+  "faq": {
+    "badge": "FAQs",
+    "title": "Have Questions",
+    "highlight": "About Rabet?",
+    "items": [
+      {
+        "q": "What is Rabet?",
+        "a": "Rabet is a mobile app that brings the government services your business needs together in one place. You can explore requirements, request services such as company formation, Commercial Registration, licensing and employee services, track every request, and follow the government updates that affect your business."
+      },
+      {
+        "q": "Is Rabet a Government Application?",
+        "a": "No. Rabet is a privately operated application developed by Ahmed Bashammakh Group for Business Services. It is not affiliated with any government authority. Official procedures are processed through the relevant government platforms and authorities."
+      },
+      {
+        "q": "Is Rabet Free to Download?",
+        "a": "Yes. Rabet is free to download from the App Store and Google Play. You only pay for the services you choose to request, and the price is shown before you submit."
+      },
+      {
+        "q": "Can I Establish a Company in Saudi Arabia Through Rabet?",
+        "a": "Yes. Use the Business Setup Guide to find the requirements for your investor category and business activity, then request company formation assistance through Rabet. Our team supports you throughout the establishment process."
+      },
+      {
+        "q": "Is Rabet Suitable for Foreign Investors?",
+        "a": "Yes. Rabet covers company formation for Saudi citizens, GCC nationals and foreign investors, including investment licensing and the requirements involved in operating a business in Saudi Arabia."
+      },
+      {
+        "q": "How Can I Track My Service Request?",
+        "a": "Open My Requests in the app. You can see the current status of each request, follow every stage of its execution, and see whether any additional information or documents are needed."
+      },
+      {
+        "q": "Can I Contact Someone About My Request?",
+        "a": "Yes. You can communicate with our team directly within your service request, and our team will help you with the required information, documents and procedures."
+      },
+      {
+        "q": "Are All Government Services Available in Rabet?",
+        "a": "Rabet offers a wide and growing range of government and business services, but not every government procedure is available. Browse the services list in the app to see what you can request today."
+      },
+      {
+        "q": "Are There Additional Government Fees?",
+        "a": "Requirements, government fees and processing times vary depending on the service and the relevant authority. Each service in the app shows its details and requirements before you submit your request."
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Get Started Today",
+    "titleA": "Your Business Deserves An Easier Way To",
+    "highlight": "Manage Government Services",
+    "text": "Whether you're starting a new business or managing an established company, Rabet makes it easier to access the services you need, track your requests, and stay informed about important government updates.",
+    "tagline": "Download Rabet Today and Bring Your Business Services Closer to You.",
+    "scan": "Or scan the QR code to download the app directly.",
+    "qrAlt": "QR code to download the Rabet app"
+  },
+  "footer": {
+    "about": "Your mobile app for government and business services in Saudi Arabia, developed by Ahmed Bashammakh Group for Business Services.",
+    "quickLinks": "Quick Links",
+    "importantLinks": "Important Links",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "help": "Help & Support",
+    "follow": "Follow Us",
+    "rights": "© {year} Rabet. All Rights Reserved.",
+    "wordmark": "Government Services"
+  },
+  "download": {
+    "title": "Download Rabet",
+    "text": "Opening your app store… If nothing happens, choose your store below.",
+    "computerText": "Rabet is a phone app. Pick your store below, or open this page on your phone.",
+    "back": "Back to the home page"
+  },
+  "common": {
+    "appStore": "Download on the App Store",
+    "googlePlay": "Get it on Google Play",
+    "logoAlt": "Rabet {'|'} رابط",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "phone": {
+    "hint": "Tap around — it works like the app",
+    "label": "Interactive preview of the Rabet app",
+    "time": "9:41",
+    "servicesAvailable": "Services available",
+    "welcome": "Welcome",
+    "all": "All",
+    "notifications": "Notifications",
+    "cart": "Cart",
+    "account": "Account",
+    "search": "Search",
+    "banner": {
+      "title": "Start Your Company",
+      "highlight": "in Saudi Arabia",
+      "text": "Clear steps and a custom plan based on your business needs.",
+      "cta": "Get Started Now"
+    },
+    "days": "{days} days execution",
+    "nav": {
+      "home": "Home",
+      "orders": "Orders",
+      "news": "News",
+      "assistant": "Assistant"
+    },
+    "detail": {
+      "title": "Service Details",
+      "currency": "SAR",
+      "daysShort": "days",
+      "description": "Description",
+      "requirements": "Requirements",
+      "included": "What’s Included :",
+      "empty": "No services available",
+      "addToCart": "Add to cart",
+      "quickBuy": "Quick Buy"
+    },
+    "searchScreen": {
+      "hint": "Search...",
+      "suggestions": "Suggestions",
+      "results": "no results | Found 1 service for \"{query}\" | Found {count} services for \"{query}\"",
+      "noResults": "No results for \"{query}\"",
+      "noResultsHint": "Try different keywords or browse categories",
+      "browseAll": "Browse All Categories"
+    },
+    "news": {
+      "title": "News",
+      "searchHint": "Search news...",
+      "all": "All news",
+      "announcements": "Announcements",
+      "digital": "Digital services",
+      "readMore": "Read more",
+      "empty": "No news yet"
+    },
+    "cf": {
+      "title": "Start Your Company",
+      "videoHint": "Watch how company formation works",
+      "headline": "Start Your Company in Saudi Arabia",
+      "subtitle": "Watch a short video, then answer a few simple questions. We’ll show you exactly what you need, the estimated costs, and how to get started.",
+      "bullet1": "For Saudi, GCC, and foreign investors",
+      "bullet2": "Get your requirements and estimated costs in minutes",
+      "bullet3": "Request a quote whenever you’re ready",
+      "start": "Get Started"
+    },
+    "back": "Back",
+    "gated": "Sign in needed — download the app"
+  }
+}

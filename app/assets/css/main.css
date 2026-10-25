@@ -1,0 +1,122 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* Rabet brand, taken from the mobile app's tokens (lib/app/theme/tokens.dart):
+   primaryBlue #2464EA, accentOrange #F6941D, navy #121A2B. */
+@theme static {
+  --font-sans: "Albert Sans", "Cairo", ui-sans-serif, system-ui, sans-serif;
+  --font-arabic: "Cairo", ui-sans-serif, system-ui, sans-serif;
+
+  --color-rabet-50: #eef4fe;
+  --color-rabet-100: #dbe6fd;
+  --color-rabet-200: #bfd3fb;
+  --color-rabet-300: #93b7f8;
+  --color-rabet-400: #6191f3;
+  --color-rabet-500: #3d6fee;
+  --color-rabet-600: #2464ea;
+  --color-rabet-700: #1e55d0;
+  --color-rabet-800: #1f46a8;
+  --color-rabet-900: #1f3e85;
+  --color-rabet-950: #172851;
+
+  --color-sun-50: #fef7ec;
+  --color-sun-100: #fdebd0;
+  --color-sun-200: #fbd59f;
+  --color-sun-300: #f9ba66;
+  --color-sun-400: #f8a43b;
+  --color-sun-500: #f6941d;
+  --color-sun-600: #e07510;
+  --color-sun-700: #b95810;
+  --color-sun-800: #964514;
+  --color-sun-900: #7b3a14;
+  --color-sun-950: #431c07;
+
+  --color-navy-700: #2a3448;
+  --color-navy-800: #1b2337;
+  --color-navy-900: #121a2b;
+  --color-navy-950: #0d1320;
+
+  --color-page: #f4f4f4;
+}
+
+:root {
+  --ui-primary: var(--color-rabet-600);
+  --ui-secondary: var(--color-sun-500);
+  --ui-text: #4b4f5c;
+  --ui-text-highlighted: var(--color-navy-900);
+  --ui-radius: 0.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Anchor jumps land right under the sticky header (h-[4.75rem] lg:h-[6.875rem]);
+     each section's own top padding provides the breathing room. */
+  scroll-padding-top: 4.75rem;
+
+  /* The desktop design is drawn at 1920px wide. Every size is in rem, so from
+     the lg breakpoint up the whole layout scales with the window: 16px at 1920,
+     ~10.7px at 1280 (what a 1920 screen at 150% Windows scaling shows), never
+     below 10px. Phones and tablets keep the browser's 16px. Breakpoints are
+     unaffected because media queries use the browser's initial font size. */
+  @media (width >= 64rem) {
+    font-size: clamp(10px, calc(100vw / 120), 16px);
+    scroll-padding-top: 6.875rem;
+  }
+}
+
+body {
+  @apply bg-white text-(--ui-text) antialiased;
+}
+
+/* Arabic gets Cairo throughout — Albert Sans has no Arabic glyphs. */
+html[lang="ar-SA"] body {
+  font-family: var(--font-arabic);
+}
+
+/* The faint grid used behind several sections. */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgb(18 26 43 / 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(18 26 43 / 0.05) 1px, transparent 1px);
+  background-size: 2.625rem 2.625rem;
+}
+
+.bg-grid-light {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.05) 1px, transparent 1px);
+  background-size: 3.5rem 3.5rem;
+}
+
+/* Horizontal images (phones, arrows) that point a way need mirroring in RTL. */
+[dir="rtl"] .rtl-flip {
+  transform: scaleX(-1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Page gutter: 1680px (105rem) content at 1920, matching the design. */
+@utility container-x {
+  margin-inline: auto;
+  width: 100%;
+  max-width: calc(105rem + 2 * var(--gutter, 1.25rem));
+  padding-inline: var(--gutter, 1.25rem);
+  @media (width >= 40rem) {
+    --gutter: 2rem;
+  }
+  @media (width >= 80rem) {
+    --gutter: 3rem;
+  }
+}
+
+/* Faint big numbers on step cards. */
+.text-ghost {
+  color: transparent;
+  background: linear-gradient(180deg, #e3e4e8 0%, #f3f3f5 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
