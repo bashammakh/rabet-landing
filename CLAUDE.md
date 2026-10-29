@@ -8,8 +8,9 @@ backend.
 Built from the designer's files (desktop 1920 and mobile 393 PNGs, assets per
 section, in `C:\Users\conta\Downloads\Rabet_landing`) on 2026-10-25.
 
-Repo: `github.com/bashammakh/rabet-landing`, branch `testing`. It isn't deployed
-anywhere yet, so pushing doesn't ship anything.
+Repo: `github.com/bashammakh/rabet-landing`, branch `testing`. **Live at
+`rabet-app.com`**: a Render static site (`rabet-landing`) builds `testing` on every
+push (`npm run generate`, publishes `dist`), so a push ships.
 
 ## Commands
 
@@ -47,7 +48,9 @@ yarn generate     # static site in .output/public — deploy that folder anywher
 - `app/pages/index.vue` — the section order. Each section is a component in
   `app/components/landing/`.
 - `app/app.config.ts` — **store links, social links, legal links.** The one file
-  a marketer edits.
+  a marketer edits. The store links are smart links
+  (`go.rabet-app.com/website?to=play|appstore`), not the stores, so taps are
+  counted on the Rabet links dashboard. Keep them that way.
 - `app/pages/download.vue` — sends iPhone/iPad to the App Store and Android to Play;
   everyone else sees both badges.
 - `public/images/` — assets exported from the design, grouped by section.

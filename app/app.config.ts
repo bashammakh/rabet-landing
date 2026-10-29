@@ -11,12 +11,18 @@ export default defineAppConfig({
   },
 
   // Everything a marketer may need to change, in one place.
-  // Store links verified 2026-10-25 (iTunes lookup by bundle id; Play listing returns 200).
   // TODO(links): confirm Rabet's own social accounts —
   // the social URLs below are the Bashammakh Group accounts used on bashammakh.sa.
   rabet: {
-    appStoreUrl: 'https://apps.apple.com/sa/app/id6781712126',
-    playStoreUrl: 'https://play.google.com/store/apps/details?id=sa.bashammakh.bashammakh_mobile',
+    // Store links go through the Rabet smart link "website" (go.rabet-app.com, repo
+    // bashammakh/rabet-smart-links) instead of straight to the store, so every tap on a
+    // badge — and every phone sent on by /download — is counted on the links dashboard,
+    // and an Android install from it is credited to the website. `to=` picks the store
+    // whatever the device. The stores themselves:
+    //   https://apps.apple.com/sa/app/id6781712126
+    //   https://play.google.com/store/apps/details?id=sa.bashammakh.bashammakh_mobile
+    appStoreUrl: 'https://go.rabet-app.com/website?to=appstore',
+    playStoreUrl: 'https://go.rabet-app.com/website?to=play',
     // A store-aware link the QR code points at (/download picks the store by device).
     downloadPath: '/download',
     socials: [
